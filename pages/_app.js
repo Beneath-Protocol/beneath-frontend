@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { NextUIProvider } from '@nextui-org/react'
 import { createTheme } from "@nextui-org/react"
+import { Providers } from '../components/provider/provider'
 
 const theme = createTheme({
 	type: "dark", // it could be "light" or "dark"
@@ -12,18 +13,20 @@ const theme = createTheme({
 			// you can also create your own color
 			myDarkColor: '#ff4ecd'
 			// ...  more colors
-		  },
-		  space: {},
-		  fonts: {}
+		},
+		space: {},
+		fonts: {}
 	}
-  })
+})
 
 function App({ Component, pageProps: { ...pageProps } }) {
-  return (
-	<NextUIProvider theme={theme}>
-	  	<Component {...pageProps} />
-	</NextUIProvider>
-  );
+	return (
+		<NextUIProvider theme={theme}>
+			<Providers>
+				<Component {...pageProps} />
+			</Providers>
+		</NextUIProvider>
+	);
 }
 
 export default App;
