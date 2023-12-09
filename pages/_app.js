@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { NextUIProvider } from '@nextui-org/react'
 import { createTheme } from "@nextui-org/react"
-import { SessionProvider } from "next-auth/react"
+
 const theme = createTheme({
 	type: "dark", // it could be "light" or "dark"
 	theme: {
@@ -18,12 +18,10 @@ const theme = createTheme({
 	}
   })
 
-function App({ Component, pageProps: { session, ...pageProps } }) {
+function App({ Component, pageProps: { ...pageProps } }) {
   return (
 	<NextUIProvider theme={theme}>
-		<SessionProvider session={session}>
 	  	<Component {...pageProps} />
-		</SessionProvider>
 	</NextUIProvider>
   );
 }

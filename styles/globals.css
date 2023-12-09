@@ -23,3 +23,13 @@ a {
     background: black;
   }
 }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical {
+  text-align: center;
+}
