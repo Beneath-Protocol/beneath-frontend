@@ -1,0 +1,26 @@
+import Head from "next/head";
+import { Text, Link, Navbar, Spacer, Divider, Button} from "@nextui-org/react";
+import { useSession, signIn, signOut } from "next-auth/react"
+
+export default function Home() {
+    const { data: session } = useSession()
+    return (
+        <>
+            <Head>
+                <title></title>
+            </Head>
+
+            <Navbar isBordered isCompact variant="sticky" css={{bgBlur: "#000000"}}>
+                <Navbar.Brand>
+                    <Text h3 css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>Lumatozer</Text>
+                </Navbar.Brand>
+                <Navbar.Content activeColor="secondary">
+                <Navbar.Link isActive href="/">Home</Navbar.Link>
+                <Navbar.Link href="https://ltzdocs.vercel.app" target='_blank'>Docs</Navbar.Link>
+                <Navbar.Link href="/explorer">Explorer</Navbar.Link>
+                <Navbar.Item><Button auto bordered color="gradient"><Link color="text" href="/buy">Buy Now</Link></Button></Navbar.Item>
+                </Navbar.Content>
+            </Navbar>
+        </>
+    )
+}

@@ -1,0 +1,100 @@
+import Head from "next/head";
+import { Card, Container, Link, Navbar, Spacer, Text, Row, Divider, Table, Image, Collapse, Button} from "@nextui-org/react";
+
+const Stats = ({title, body}) => {
+    return (
+    <Card blur="true" isPressable iscompact="true" isHoverable isblurred="true" variant="bordered" css={{padding: 2, bgBlur: "#0f111466"}}>
+        <Card.Header><Text h2 color="secondary">{title}</Text></Card.Header>
+        <Card.Body><Text h4 color="primary" >{body}</Text></Card.Body>
+    </Card>
+    )
+}
+
+export default function Home() {
+    return (
+        <>
+            <Head>
+                <title>LTZ | Blockchain Solutions</title>
+            </Head>
+            <Navbar isBordered isCompact variant="sticky" css={{bgBlur: "#000000"}}>
+                <Navbar.Brand>
+                    <Text h3 css={{textGradient: "45deg, $blue600 -20%, $pink600 50%"}}>Lumatozer</Text>
+                </Navbar.Brand>
+                <Navbar.Content activeColor="secondary">
+                <Navbar.Link isActive href="/">Home</Navbar.Link>
+                <Navbar.Link href="https://ltzdocs.vercel.app" target='_blank'>Docs</Navbar.Link>
+                <Navbar.Link href="/explorer">Explorer</Navbar.Link>
+                <Navbar.Item><Button auto bordered color="gradient"><Link color="text" href="/buy">Buy Now</Link></Button></Navbar.Item>
+                </Navbar.Content>
+            </Navbar>
+            <Spacer/>
+            <Container>
+                <Text h1 css={{textGradient: "45deg, $blue600 -20%, $pink600 50%",}} weight="bold">
+                    Revolutionizing Web 3.0,
+                </Text>
+                <Text h1 css={{textGradient: "45deg, $yellow600 -20%, $red600 100%",}} weight="bold">
+                    With Bleeding Edge Blockchain Solutions.
+                </Text>
+                <Spacer/>
+                <Text h4>Highly Scalable, Developer Friendly, Ever Expanding Ecosystem, Economically Feasible.</Text>
+                <Spacer y={2}/>
+                <Row gap={1}>
+                        <Stats title="1100 times" body="faster than Ethereum"/>
+                        <Spacer/>
+                        <Stats title="4 times" body="faster than Solana"/>
+                        <Spacer/>
+                        <Stats title="6000 times" body="faster than Bitcoin"/>
+                </Row>
+                <Spacer y={2}/>
+                <Divider/>
+                <Spacer/>
+                <Text h2 color="primary" css={{"text-align":"center"}}>The Team</Text>
+                <Spacer/>
+                <Table>
+                    <Table.Header>
+                        <Table.Column>NAME</Table.Column>
+                        <Table.Column>ROLE</Table.Column>
+                    </Table.Header>
+                    <Table.Body>
+                        <Table.Row key="1">
+                            <Table.Cell><Link block color="success" href="https://github.com/aludayalu/" target='_blank'>Aarav Dayal</Link></Table.Cell>
+                            <Table.Cell>Lead Developer</Table.Cell>
+                        </Table.Row>
+                        <Table.Row key="2">
+                            <Table.Cell><Link block color="success" href="https://github.com/kshankr" target='_blank'>Kritarth Shankar</Link></Table.Cell>
+                            <Table.Cell>Lead Developer</Table.Cell>
+                        </Table.Row>
+                    </Table.Body>
+                </Table>
+                <Spacer/>
+                <Divider/>
+                <Spacer/>
+                <Text h2 color="secondary" css={{"text-align": "center"}}>Backed By The Best</Text>
+                <Image src="spflogo.png"/>
+                <Spacer/>
+                <Divider/>
+                <Spacer/>
+                <Text h2 color="primary" css={{"text-align":"center"}}>Frequently Asked Questions</Text>
+                <Collapse.Group>
+                    <Collapse title="How to Get Started?">
+                        <Text b>
+                        Developers can use our on-the-go platform for uploading smart contracts on the LTZ-Chain. Developers need to make these smart contracts in Vitality. Users can access these Dapps by publishing a transaction to these contracts with the required arguments (if any).
+                        </Text>
+                    </Collapse>
+                    <Collapse title="What Type Of Consensus Algorithm Does LTZ-Chain Use?">
+                        <Text b>
+                        LTZ-Chain uses a PoW-based approach to reach consensus across all nodes on the network. To minimize the carbon emissions we use algorithms that enforce the use of CPUs for mining. Any individual can launch a node by cloning our GitHub Repo and starting the node. The minimum system requirements for a node are a dual-core CPU, 1 Gb of free ram, and 50 Gb of free storage.
+                        </Text>
+                    </Collapse>
+                    <Collapse title="How Do You Claim To Be Better Than Traditional Blockchains?">
+                        <Text b>
+                        The most adopted smart contract blockchain out there currently is Ethereum. But Ethereum is very expensive (about $20 for each transaction) and has a very low TPS (about 22). LTZ-Chain is lightning fast with a TPS of 24,630+ and fees less than a 1000th of a penny. LTZ-Chain is the fastest PoW blockchain which supports smart contracts, NFTs, Domains and many more features waiting for you!
+                        </Text>
+                    </Collapse>
+                </Collapse.Group>
+                <Spacer y={5}/>
+                <Divider/>
+            </Container>
+        </>
+    )
+}
