@@ -74,8 +74,6 @@ Our project involved a plethora of new technologies, including Zetachain, Arbitr
 
 # Check the below links for more details
 
-Testnet Deployed Contract Address: https://suiexplorer.com/object/0x867781f9c2fd17dba3b8e8a74bcfdd42dcaff0e74b91f6810b9de910491c364c?module=superstream&network=testnet
-
 **GitHub:**
 https://github.com/Beneath-Protocol/beneath-frontend
 
