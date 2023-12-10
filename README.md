@@ -86,13 +86,15 @@ https://7252-14-195-9-98.ngrok-free.app
 
 # Smart Contract Addresses :
 
-**Zetachain :** 0xcaA79e2C7f089bbF165690EEa1B47DDCA0394e1c
-
 **Scroll :** 0x114613bf5052E4c36d4CFa80b8a3C361634f855A
 
 **Base :** 0xd1CbECAed41351c9f3226b249cF238Ad46c1d2f4
 
 **Polygon :** 0x5021625D7C446A1e274d032F6C0f38b6291bEfA6
+
+**Arbitrum :** Run on local node
+
+**Zetachain :** 0xcaA79e2C7f089bbF165690EEa1B47DDCA0394e1c (Cross-Chain Message Addressing)
 
 # 📜 License
 
