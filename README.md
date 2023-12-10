@@ -74,6 +74,16 @@ Our project involved a plethora of new technologies, including Zetachain, Arbitr
 
 # Check the below links for more details
 
+**GitHub:**
+https://github.com/Beneath-Protocol/beneath-frontend
+
+**Pitch Video:**
+https://www.youtube.com/watch?v=JHjuvJBiUCk
+
+**Live Website:**
+https://7252-14-195-9-98.ngrok-free.app
+
+
 # Smart Contract Addresses :
 
 **Zeta :** 0xcaA79e2C7f089bbF165690EEa1B47DDCA0394e1c
@@ -83,17 +93,6 @@ Our project involved a plethora of new technologies, including Zetachain, Arbitr
 **Base :** 0xd1CbECAed41351c9f3226b249cF238Ad46c1d2f4
 
 **Polygon :** 0x5021625D7C446A1e274d032F6C0f38b6291bEfA6
-
-
-
-**GitHub:**
-https://github.com/Beneath-Protocol/beneath-frontend
-
-**Pitch Video:**
-https://www.youtube.com/watch?v=JHjuvJBiUCk
-
-**Live Website:**
-Run using local.
 
 # 📜 License
 
