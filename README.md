@@ -61,7 +61,7 @@ Our journey continues as we strive to enhance Beneath Protocol and the whole Blo
 - Join more chains on our protocol.
 - Making a SDK that can be used
 
-#   Challenges we ran into
+# 🐛Challenges we ran into
 
 - Chainlink CCIP Integration Issues
 We initially planned to leverage Chainlink CCIP functionality for cross-chain communication. Despite investing significant effort and collaboration with the Chainlink Developer team, we encountered challenges. Developer issues on the Chainlink side and a lack of code updates in their docs posed hurdles. After exhaustive attempts and communication with the Chainlink team, we were advised to discontinue its use due to insurmountable challenges. This setback consumed a considerable portion of our time during the hackathon. Subsequently, we pivoted to developing our own decentralized protocol for achieving similar cross-chain communication goals, facilitating communication between different chains and bridging the gap between web3 and web2.
@@ -73,6 +73,18 @@ While working with NextJS, we faced an unexpected roadblock during the integrati
 Our project involved a plethora of new technologies, including Zetachain, Arbitrum, Base, Push, and Lighthouse Storage. The learning curve for these technologies was steep, leading to initial challenges in navigating the documentation and understanding the intricacies of each. However, the well-maintained documentation and the responsiveness of the developer teams played a crucial role in overcoming these challenges. Despite the initial struggles, the support provided helped us gain proficiency in these technologies and use them.
 
 # Check the below links for more details
+
+# Smart Contract Addresses :
+
+**Zeta :** 0xcaA79e2C7f089bbF165690EEa1B47DDCA0394e1c
+
+**Scroll :** 0x114613bf5052E4c36d4CFa80b8a3C361634f855A
+
+**Base :** 0xd1CbECAed41351c9f3226b249cF238Ad46c1d2f4
+
+**Polygon :** 0x5021625D7C446A1e274d032F6C0f38b6291bEfA6
+
+
 
 **GitHub:**
 https://github.com/Beneath-Protocol/beneath-frontend
