@@ -86,7 +86,7 @@ https://7252-14-195-9-98.ngrok-free.app
 
 # Smart Contract Addresses :
 
-**Zeta :** 0xcaA79e2C7f089bbF165690EEa1B47DDCA0394e1c
+**Zetachain :** 0xcaA79e2C7f089bbF165690EEa1B47DDCA0394e1c
 
 **Scroll :** 0x114613bf5052E4c36d4CFa80b8a3C361634f855A
 
