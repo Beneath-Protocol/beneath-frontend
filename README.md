@@ -77,6 +77,9 @@ Our project involved a plethora of new technologies, including Zetachain, Arbitr
 **GitHub:**
 https://github.com/Beneath-Protocol/beneath-frontend
 
+**Backend:**
+https://github.com/Beneath-Protocol/beneath
+
 **Pitch Video:**
 https://www.youtube.com/watch?v=JHjuvJBiUCk
 
